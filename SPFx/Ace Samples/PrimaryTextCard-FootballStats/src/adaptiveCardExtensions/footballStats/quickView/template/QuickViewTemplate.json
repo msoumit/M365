@@ -1,0 +1,50 @@
+{
+  "schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "Input.ChoiceSet",
+      "choices": [
+        {
+          "title": "English Premier League",
+          "value": "PL"
+        },
+        {
+          "title": "Spanish La Liga",
+          "value": "PD"
+        },
+        {
+          "title": "German Bundesliga",
+          "value": "BL1"
+        },
+        {
+          "title": "Italian Serie A",
+          "value": "SA"
+        },
+        {
+          "title": "French Ligue 1",
+          "value": "FL1"
+        }
+      ],
+      "placeholder": "Select League",
+      "isRequired": true,
+      "errorMessage": "Please select league",
+      "id": "league",
+      "label": "League"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Check Current Standings",
+            "style": "positive",
+            "data": {
+              "id": "Standings"
+            }
+        }
+      ]
+    }
+  ]
+}
