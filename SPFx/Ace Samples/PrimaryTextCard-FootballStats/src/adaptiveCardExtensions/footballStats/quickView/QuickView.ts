@@ -4,7 +4,7 @@ import { IFootballStatsAdaptiveCardExtensionProps, IFootballStatsAdaptiveCardExt
 import { ApiService } from '../services/ApiService';
 
 export interface IQuickViewData {
-  title: string;
+  leagues: any;
 }
 
 export class QuickView extends BaseAdaptiveCardView<
@@ -13,8 +13,9 @@ export class QuickView extends BaseAdaptiveCardView<
   IQuickViewData
 > {
   public get data(): IQuickViewData {
+    let leagues = require("../services/Leagues.json");
     return {
-      title: "hello"
+      leagues: leagues
     };
   }
 
