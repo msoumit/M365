@@ -43,7 +43,6 @@ export class QuickView extends BaseAdaptiveCardView<
               standingCurrentIndex: 0
             });
           }
-          console.log(response);
         }
       }
     }

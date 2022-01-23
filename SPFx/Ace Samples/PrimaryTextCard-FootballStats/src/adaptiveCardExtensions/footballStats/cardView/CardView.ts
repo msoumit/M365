@@ -26,7 +26,7 @@ export class CardView extends BasePrimaryTextCardView<IFootballStatsAdaptiveCard
   public get data(): IPrimaryTextCardParameters {
     return {
       primaryText: "Football Stats ACE",
-      description: "Football Stats Details"
+      description: "Football Stats ACE displays live standings of top five leagues from Europe"
     };
   }
 

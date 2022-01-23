@@ -21,8 +21,8 @@
     "description": { "default": "FootballStats description" },
     "officeFabricIconFontName": "SharePointLogo",
     "properties": {
-      "title": "FootballStats",
-      "description": "FootballStats description",
+      "title": "Football Stats",
+      "description": "Football Stats description",
       "iconProperty": "" // Default to sharepointlogo
     }
   }]
