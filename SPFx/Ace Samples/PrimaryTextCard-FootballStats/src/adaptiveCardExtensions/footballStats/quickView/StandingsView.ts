@@ -13,7 +13,6 @@ export class StandingsView extends BaseAdaptiveCardView<
 > {
 
   public get data(): IStandingsViewData {
-    console.log(this.state.standingsData[this.state.standingCurrentIndex]);
     return {
       teamDetails: this.state.standingsData[this.state.standingCurrentIndex]
     };
