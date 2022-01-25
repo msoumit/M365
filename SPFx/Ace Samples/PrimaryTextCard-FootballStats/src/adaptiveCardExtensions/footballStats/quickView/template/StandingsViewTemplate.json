@@ -8,18 +8,19 @@
             "columns": [
                 {
                     "type": "Column",
-                    "width": "15px",
+                    "width": "30px",
                     "items": [
                         {
                             "type": "Image",
-                            "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2048 2048\"><path d=\"M1443 2045L421 1024 1443 3l90 90-930 931 930 931-90 90z\"></path></svg>",
+                            "url": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZGF0YS1uYW1lPSJMYXllciAyIj48cGF0aCBkPSJNMzEgMTZBMTUgMTUgMCAxIDEgMTYgMWExNSAxNSAwIDAgMSAxNSAxNVpNMyAxNkExMyAxMyAwIDEgMCAxNiAzIDEzIDEzIDAgMCAwIDMgMTZaIiBmaWxsPSIjM2E3NTQyIiBjbGFzcz0iZmlsbC0wMDAwMDAiPjwvcGF0aD48cGF0aCBkPSJNMTkuODcgMTAuNDEgMTQuMjkgMTZsNS41OCA1LjU5YTEgMSAwIDAgMSAwIDEuNDEgMSAxIDAgMCAxLTEuNDEgMGwtNi4zNi02LjM2YS45MS45MSAwIDAgMSAwLTEuMjhMMTguNDYgOWExIDEgMCAwIDEgMS40MSAwIDEgMSAwIDAgMSAwIDEuNDFaIiBmaWxsPSIjM2E3NTQyIiBjbGFzcz0iZmlsbC0wMDAwMDAiPjwvcGF0aD48L2c+PC9zdmc+",
                             "selectAction": {
                                 "type": "Action.Submit",
                                 "title": "Previous",
                                 "data": {
                                     "id": "Previous"
                                 }
-                            }
+                            },
+                            "size": "medium"
                         }
                     ],
                     "verticalContentAlignment": "Top",
@@ -54,18 +55,19 @@
                 },
                 {
                     "type": "Column",
-                    "width": "15px",
+                    "width": "30px",
                     "items": [
                         {
                             "type": "Image",
-                            "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2048 2048\"><path d=\"M515 1955l930-931L515 93l90-90 1022 1021L605 2045l-90-90z\"></path></svg>",
+                            "url": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZGF0YS1uYW1lPSJMYXllciAyIj48cGF0aCBkPSJNMSAxNmExNSAxNSAwIDEgMSAxNSAxNUExNSAxNSAwIDAgMSAxIDE2Wm0yOCAwYTEzIDEzIDAgMSAwLTEzIDEzIDEzIDEzIDAgMCAwIDEzLTEzWiIgZmlsbD0iIzNhNzU0MiIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PHBhdGggZD0iTTEyLjEzIDIxLjU5IDE3LjcxIDE2bC01LjU4LTUuNTlhMSAxIDAgMCAxIDAtMS40MSAxIDEgMCAwIDEgMS40MSAwbDYuMzYgNi4zNmEuOTEuOTEgMCAwIDEgMCAxLjI4TDEzLjU0IDIzYTEgMSAwIDAgMS0xLjQxIDAgMSAxIDAgMCAxIDAtMS40MVoiIGZpbGw9IiMzYTc1NDIiIGNsYXNzPSJmaWxsLTAwMDAwMCI+PC9wYXRoPjwvZz48L3N2Zz4=",
                             "selectAction": {
                                 "type": "Action.Submit",
                                 "title": "Next",
                                 "data": {
                                     "id": "Next"
                                 }
-                            }
+                            },
+                            "size": "medium"
                         }
                     ],
                     "verticalContentAlignment": "Top"
