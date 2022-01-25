@@ -2,7 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+> Description Required
 
 ![screenshot](assets/PrimaryTextCard-FootballStatsDemo.gif)
 
