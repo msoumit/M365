@@ -2,7 +2,7 @@
 
 ## Summary
 
-> Description Required
+> This Adaptive Card Extension allows user to choose one of the top five European Football League to get information about current team standing. The data is retrieved using REST API provided by - https://api.football-data.org -
 
 ![screenshot](assets/PrimaryTextCard-FootballStatsDemo.gif)
 
@@ -26,12 +26,14 @@
 Solution|Author(s)
 --------|---------
 PrimaryTextCard-FootballStats | Soumit Mukherjee ([@msoumit](https://github.com/msoumit))
+PrimaryTextCard-FootballStats | Sourav Paul ([@XLR8-0](https://github.com/XLR8-0))
+PrimaryTextCard-FootballStats | Soumyadeep Mukherjee ([@soumyadeep2207](https://github.com/soumyadeep2207))
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0|January 01, 2022|Initial release
+1.0|January 25, 2022|Initial release
 
 ## Disclaimer
 
@@ -60,7 +62,7 @@ Description of the extension that expands upon high-level summary above.
 This extension illustrates the following concepts:
 
 - Adaptive Card Extension - PrimaryTextCard Template 
-- 3rd Party REST call to retrieve data from internet
+- REST call to retrieve data from internet
 
 
 ## References
