@@ -4,6 +4,7 @@ import { CardView } from './cardView/CardView';
 import { QuickView } from './quickView/QuickView';
 import { StandingsView } from './quickView/StandingsView';
 import { FootballStatsPropertyPane } from './FootballStatsPropertyPane';
+import { StandingsViewListing } from './quickView/StandingsViewListing'
 
 export interface IFootballStatsAdaptiveCardExtensionProps {
   title: string;
@@ -16,11 +17,13 @@ export interface IFootballStatsAdaptiveCardExtensionState {
   context: AdaptiveCardExtensionContext;
   standingsData: any[];
   standingCurrentIndex: number;
+  selectedValue?: any; //added to capture the selected League
 }
 
 const CARD_VIEW_REGISTRY_ID: string = 'FootballStats_CARD_VIEW';
 export const QUICK_VIEW_REGISTRY_ID: string = 'FootballStats_QUICK_VIEW';
 export const STANDINGS_VIEW_REGISTRY_ID: string = 'FootballStats_STANDINGS_VIEW';
+export const STANDINGSLISTING_VIEW_REGISTRY_ID: string = 'FootballStats_STANDINGSLISTING_VIEW';
 
 export default class FootballStatsAdaptiveCardExtension extends BaseAdaptiveCardExtension<
   IFootballStatsAdaptiveCardExtensionProps,
@@ -39,6 +42,7 @@ export default class FootballStatsAdaptiveCardExtension extends BaseAdaptiveCard
     this.cardNavigator.register(CARD_VIEW_REGISTRY_ID, () => new CardView());
     this.quickViewNavigator.register(QUICK_VIEW_REGISTRY_ID, () => new QuickView());
     this.quickViewNavigator.register(STANDINGS_VIEW_REGISTRY_ID, () => new StandingsView());
+    this.quickViewNavigator.register(STANDINGSLISTING_VIEW_REGISTRY_ID, () => new StandingsViewListing());
   }
 
   public get title(): string {

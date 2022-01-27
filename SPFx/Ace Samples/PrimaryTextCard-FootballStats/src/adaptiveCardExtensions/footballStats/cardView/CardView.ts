@@ -12,7 +12,7 @@ export class CardView extends BasePrimaryTextCardView<IFootballStatsAdaptiveCard
   public get cardButtons(): [ICardButton] | [ICardButton, ICardButton] | undefined {
     return [
       {
-        title: strings.QuickViewButton,
+        title: "Check Current Standings",
         action: {
           type: 'QuickView',
           parameters: {

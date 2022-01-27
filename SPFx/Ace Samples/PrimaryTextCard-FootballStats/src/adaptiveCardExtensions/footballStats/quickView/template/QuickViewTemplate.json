@@ -7,9 +7,9 @@
       "type": "Input.ChoiceSet",
       "choices": [
         {
-            "$data": "${leagues}",
-            "title": "${title}",
-            "value": "${value}"
+          "$data": "${leagues}",
+          "title": "${title}",
+          "value": "${value}"
         }
       ],
       "placeholder": "Select League",
@@ -19,17 +19,51 @@
       "label": "League"
     },
     {
-      "type": "ActionSet",
-      "actions": [
+      "type": "ColumnSet",
+      "columns": [
         {
-            "type": "Action.Submit",
-            "title": "Check Current Standings",
-            "style": "positive",
-            "data": {
-              "id": "Standings"
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "List View",
+                  "style": "positive",
+                  "data": {
+                    "id": "Standings",
+                    "label": "List"
+                  }
+                }
+              ]
             }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Carousel View",
+                  "style": "positive",
+                  "data": {
+                    "id": "Standings",
+                    "label": "Carousel"
+                  }
+                }
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "separator": true,
+      "bleed": true
     }
   ]
 }
