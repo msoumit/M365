@@ -4,7 +4,7 @@ import { CardView } from './cardView/CardView';
 import { QuickView } from './quickView/QuickView';
 import { StandingsView } from './quickView/StandingsView';
 import { FootballStatsPropertyPane } from './FootballStatsPropertyPane';
-import { StandingsViewListing } from './quickView/StandingsViewListing'
+import { StandingsViewListing } from './quickView/StandingsViewListing';
 
 export interface IFootballStatsAdaptiveCardExtensionProps {
   title: string;

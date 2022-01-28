@@ -111,7 +111,7 @@
                                     "type": "TextBlock",
                                     "text": "Won : ${won}",
                                     "wrap": true,
-                                    "weight": "bolder"
+                                    "weight": "Bolder"
                                 }
                             ]
                         },
@@ -126,7 +126,7 @@
                                     "type": "TextBlock",
                                     "text": "Lost : ${lost}",
                                     "wrap": true,
-                                    "weight": "bolder"
+                                    "weight": "Bolder"
                                 }
                             ]
                         },
@@ -141,7 +141,7 @@
                                     "type": "TextBlock",
                                     "text": "Draw : ${draw}",
                                     "wrap": true,
-                                    "weight": "bolder"
+                                    "weight": "Bolder"
                                 }
                             ]
                         }
